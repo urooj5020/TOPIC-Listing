@@ -7,6 +7,10 @@
 .body{
     min-width: 300px;
 }
+.wrapper{
+    max-width: 1800px;
+    margin: auto;
+}
 .Eighty_container{
     width: 80%;
     margin: auto;
