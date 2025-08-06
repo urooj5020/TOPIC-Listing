@@ -23,8 +23,7 @@ body {
     background: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
     height: 550px;
     width: 100%;
-    padding-top: 10px;
-    padding-bottom: 10px;
+     padding-bottom: 10px;
 }
 header{
     border-bottom: 0.2px solid rgb(209, 203, 203);
@@ -35,7 +34,6 @@ nav{
     display: flex;
     gap: 100px;
     align-items: center;
-    justify-content: space-between;
 }
 .logo{
     height: 25px;
@@ -43,11 +41,12 @@ nav{
     border: 2px solid black;
     border-radius: 5px;
     box-shadow: 10px 10px black;
+    margin-top: 15px;
 }
 .logo_container{
     display: flex;
     gap: 20px;
-    align-items: center; 
+    height: 100%;
 }
 .logo_container h1{
     font-size: 30px;
@@ -59,6 +58,7 @@ nav ul{
     list-style: none;
     gap: 50px;
     text-transform: uppercase;
+    margin-right: 180px;
 }
 nav a{
     text-decoration: none;
@@ -200,6 +200,7 @@ nav a{
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 10px;
 }
 .second_box{
     width: 50%;
@@ -480,6 +481,12 @@ nav a{
     display: flex;
     gap: 40px;
 }
+.mapp{
+     width: 500px;
+     height: 250px; 
+     border:0;
+     border-radius: 20px; 
+}
 .map_child{
     width: 33.3333%;
 }
@@ -546,6 +553,9 @@ footer{
 @media screen and (max-width:1000px) {
     .Eighty_container{
         width: 90%;
+    }
+    nav{
+        justify-content: space-between;
     }
     .main_content h1{
         font-size: 35px
@@ -635,9 +645,12 @@ footer{
     }
     .img_content{
         width: 100%;
+        display: flex;
+        justify-content: center;
     }
     .img_content img{
         height: 300px;
+        
     }
     .other_content{
         width: 100%;
@@ -652,6 +665,9 @@ footer{
         height: auto;
         width: 100%;
     }
+    .mapp{
+        width: 300px;
+    }
     .footer_container{
         flex-wrap: wrap;
         
@@ -663,5 +679,15 @@ footer{
         width: 100%;
 
     }
+    #google_map{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media screen and (min-width:401px) and (max-width:950px){
+   .mapp{
+      width: 900px;
+   }
+
 }
    
