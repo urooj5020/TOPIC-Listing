@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: var(--title-font-family);
 }
-.body{
+body{
     min-width: 300px;
 }
 .wrapper{
@@ -609,11 +609,13 @@ footer{
         width: 100%;
     }
     .bara_box{
-        margin-top: 0px;
+        margin-top: 20px;
         height: 1300px;
+        
     }
     .bara_container{
         padding: 0px;
+        padding-top: 10px;
     }
     .bara_container h2{
         font-size: 25px;
@@ -625,15 +627,15 @@ footer{
         gap: 10px;
     }
     .border_para{
-        padding-left: 55px !important;
-        margin-left: 45px !important;
+        padding-left: 35px !important;
+        margin-left: 26px !important;
         padding-bottom: 10px;
     }
     .bara_box img{
         height: 1300px;
     }
     .bas_para{
-        padding-left: 60px;
+        padding-left: 23px;
     }
     .btnpara_container{
         flex-direction: column;
@@ -651,6 +653,15 @@ footer{
     .img_content img{
         height: 300px;
         
+    }
+    .round_btn .first_btn{
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+    }
+    .second_btn{
+        height: 40px;
+        width: 40px;
     }
     .other_content{
         width: 100%;
@@ -688,6 +699,13 @@ footer{
    .mapp{
       width: 900px;
    }
+    .bara_box img{
+        height: 800px;
+    }
+    .bara_box{
+        height: 800px;
+    }
+
 
 }
    
